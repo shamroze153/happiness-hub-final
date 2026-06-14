@@ -4,7 +4,7 @@
  * both CORS preflight AND GET url-length limits for large images.
  */
 const HH = (() => {
-  const API = "https://script.google.com/macros/s/AKfycbzozbV-Yi825lNyGsno_RGeyI2xt4-fzrcQtJShtPJoHF8nnRgXJJ1JUUQHT0Uv8qa_/exec";
+  const API = "https://script.google.com/macros/s/AKfycbz8R1ru1QkCeQiTANZ2ED5m9fteCbBEDPy65_5nxZ2BPiqTrKciJ9dy-f1zy5jpxtjl/exec";
 
   async function call(action, params = {}) {
     try {
