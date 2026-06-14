@@ -1,6 +1,6 @@
 /**
  * Happiness Hub v2 — Core Library
- * Reads use GET. File uploads use a "simple" POST (text/plain) to avoid
+ * Reads use GET. File A use a "simple" POST (text/plain) to avoid
  * both CORS preflight AND GET url-length limits for large images.
  */
 const HH = (() => {
